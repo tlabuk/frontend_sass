@@ -1,0 +1,30 @@
+body {
+  background-color: red;
+  font: 40px Helvetica;
+  border: 4px solid black;
+}
+
+.navbarMain {
+  position: relative;
+}
+.navbarMain ul {
+  list-style-type: decimal;
+}
+.navbarMain ol {
+  list-style-type: none;
+}
+.navbarMain a {
+  text-decoration: double;
+}
+.navbarMain a:hover {
+  color: blueviolet;
+  transform-origin: 150%;
+  background-color: aqua;
+  transform: translate(10px);
+}
+
+.container {
+  width: 80%/40%;
+}
+
+/*# sourceMappingURL=style.css.map */
